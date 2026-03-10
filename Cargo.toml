@@ -1,0 +1,25 @@
+[package]
+name = "yts-cli"
+version = "0.1.4"
+edition = "2024"
+description = "TUI app to download YTS movies and opensubtitles subtitles"
+authors = ["Javier Orfo <javierorfo@protonmail.com>"]
+license = "MIT"
+repository = "https://github.com/javiorfo/yts-cli"
+homepage = "https://github.com/javiorfo/yts-cli#readme"
+keywords = ["movies", "subtitles", "tui", "torrent", "transmission"]
+rust-version = "1.88"
+
+[dependencies]
+tokio = { version = "1.50.0", features = ["macros", "rt", "time", "rt-multi-thread"] }
+reqwest = { version = "0.13.2", features = ["json"] }
+ratatui = { version = "0.30.0-alpha.5", features = ["all-widgets"] }
+serde = { version = "1.0.228", features = ["derive"] }
+color-eyre = "0.6.5"
+crossterm = "0.29.0"
+transmission-rpc = "0.5.0"
+anyhow = "1.0.102"
+toml = "0.9.5"
+zip = "8.2.0"
+opensubs = "0.1.0"
+yts-lib = "0.1.0"

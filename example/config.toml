@@ -1,0 +1,21 @@
+[yts]
+# Default YTS Host if not set
+host = "https://en.yts-official.mx"
+# Default download dir "$HOME/Downloads" if not set
+download_dir = "/home/user/Downloads" 
+# Could be "rating" "oldest" "featured" "year" "likes" or "alphabetical" ("rating" is the default)
+order = "rating" 
+
+[opensubs]
+# Could be a list of languages ("spanish" is the default if not set)
+# All the languages are the available in opensubtitles.org 
+languages = [ "spanish", "french" ]
+# Ordered by "downloads", "uploaded" or "rating"
+order = "downloads" 
+
+[transmission]
+# Default Transmission RPC host (this is the default if not set)
+host = "http://127.0.0.1:9091/transmission/rpc"
+# If transmission rpc requires credentials
+username = "your_username"
+password = "your_password"
