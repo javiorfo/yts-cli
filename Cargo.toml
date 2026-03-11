@@ -1,6 +1,6 @@
 [package]
 name = "yts-cli"
-version = "0.1.4"
+version = "0.1.0"
 edition = "2024"
 description = "TUI app to download YTS movies and opensubtitles subtitles"
 authors = ["Javier Orfo <javierorfo@protonmail.com>"]
