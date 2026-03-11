@@ -26,7 +26,7 @@ paru -S yts-cli
 - It uses `transmission-rpc` protocol. Transmission daemon must be configured in order to use **yts-cli**
     - [Transmission configuration](https://github.com/transmission/transmission/blob/main/docs/Editing-Configuration-Files.md)
     - [Transmission How To](https://help.ubuntu.com/community/TransmissionHowTo)
-- This program serves itself from crates [yts-movies](https://github.com/javiorfo/yts-lib) and [opensubs](https://github.com/javiorfo/opensubs)
+- This program serves itself from crates [yts-lib](https://github.com/javiorfo/yts-lib) and [opensubs](https://github.com/javiorfo/opensubs)
 - Multiple movies at the time can be downloaded. You can close **yts-cli** and the downloads still continue.
 
 ## Usage
